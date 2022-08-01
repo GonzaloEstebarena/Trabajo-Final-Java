@@ -1,0 +1,49 @@
+.goNext {
+
+
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ddd;
+    background: #fff;
+    position: fixed;
+    z-index: 1;
+}
+@font-face {
+    font-family: Cyberpunk;
+    src: url(./assets/Cyberpunk/Cyberpunk.otf);
+}
+body{
+    background-image: url(/assets/backvidrieraivi.jpg);
+    font-family: Cyberpunk;
+    cursor: url(/assets/Pokémon\ Sapphire\ Avatar.cur) ,auto;
+}
+nav {
+    
+    display: flex;
+justify-content: space-around;
+
+}
+
+.b-h1 {
+display: flex;
+  justify-content: center;
+    font-size: 120px;
+    color:#005aff;
+    background-image: url(/assets/pokeballs.gif);
+    background-position: center;
+    background-size: cover;
+    border: solid;
+    border-color: black;
+    box-shadow:0 0 30px black;
+    margin-top: 100px;
+    
+    
+}
+.b-span {
+    font-size: 25px;
+    color:white;
+    border: solid;border-color: black;
+    background-image:url(/assets/sparkles.gif);
+    border-radius: 5% / 3.5%;
+}

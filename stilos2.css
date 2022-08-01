@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Satanic;
+    line-height: 1.5;
+    background-color: rgb(234, 6, 6);
+    color: white;
+  background-image: url(/assets/devils-fire-pentagram-satanic-wallpaper-preview.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url(/assets/fuck-demon.cur) ,auto;
+  }
+  @font-face {
+    font-family: Satanic;
+    src: url(/assets/metal-macabre/MetalMacabre.ttf);
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    background-image: url(/assets/sangre.webp);
+    background-position:center;
+    background-size: cover;
+   
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black;
+    padding: 30px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: url(/assets/dungeon1.gif);background-position:center;background-size:cover;
+    border:solid; border-image: url(/assets/dark-demon-evil-occult-wallpaper-preview.jpg) stretch 20; border-width:20px;
+    
+    
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+    background-image: url(/assets/grinn.webp);
+    background-position:center;
+    background-position-y: 200px;
+    color: white;
+  }
+  
+  .li-container {
+    background-color:transparent;
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    
+    color: red;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+
+    
+  }
+  
+  .btn-delete:hover {
+    cursor: url(/assets/fuck-demon.cur), auto;
+    background-color: black;
+  }
+  
+  .btn-add {
+  height: 75px;
+  width: 75px;
+    background-image: url(/assets/pentagrama.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .btn-add:hover {
+    cursor: url(/assets/fuck-demon.cur), auto;
+    background-color: darkcyan;
+  }
+  
+  .empty {
+    color: darkslategrey;
+    display:none;
+  }
+
+
+  .goNext {
+
+
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ddd;
+    background: #fff;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  nav {
+      
+    display: flex;
+  justify-content: space-around;
+  }
+
+  .hpmana {
+
+    height: 90px;
+    width: 90px;
+  }
+  .b-input::placeholder{
+
+    color:red;
+
+    font-size: 25px;
+    font-family: Satanic;
+  }

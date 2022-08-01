@@ -1,0 +1,199 @@
+@font-face {
+  font-family: Rusia;
+  src: url(/assets/motherland/motherland.ttf);
+}
+
+html {
+  font-size: 35px;
+  background: #98bcf4;
+  font-family: Rusia;  
+  background-image: url("/assets/onu.webp");
+  background-size:120%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+ cursor: url(/assets/Troll\ Face.cur), auto;
+ font-family: Rusia;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 0;
+  font-family: Rusia, cursive;
+  color:white;
+ 
+  
+}
+
+.score {
+  background: rgb(53, 132, 159);
+  padding: 0 48px;
+  line-height: 1;
+  border-radius: 16px;
+  color: #fff;
+  margin-left: 15px;
+  border: 2px solid black;
+  background: rgb(34,46,195);
+background: linear-gradient(0deg, rgba(34,46,195,1) 0%, rgba(242,253,45,0.9643207624846813) 100%);
+}
+
+.game {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+}
+
+.hole {
+  flex: 1 0 33.33%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hole:after {
+  display: block;
+  background: url("/assets/tank-877700_960_720.webp") bottom center no-repeat;
+  background-size: cover;
+  content: "";
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  z-index: 2;
+  bottom: -50px;
+  left: -30px;
+}
+
+.mole {
+  background: url("/assets/putinsal.webp") bottom center no-repeat;
+  background-size: 80%;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+}
+
+.hole.up .mole {
+  top: 0;
+}
+
+button {
+  width: 175px;
+  font-size: 35px;
+  height: 70px;
+  color: #fff;
+  background-color: rgb(53, 132, 159);
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 90px;
+  border: 2px solid black;
+  font-family: Rusia;
+  background: rgb(34,46,195);
+background: linear-gradient(0deg, rgba(34,46,195,1) 0%, rgba(242,253,45,0.9643207624846813) 100%);
+}
+
+@media (min-width: 667px) and (max-width: 1024px) {
+  h1 {
+    display: none;
+  }
+  .score {
+    background: blue;
+    padding: 0 12px;
+    line-height: 1;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+
+  .hole.up .mole {
+    top: 17px;
+  }
+}
+
+@media (max-width: 667px) {
+  .game {
+    width: 667px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .score {
+    width: 35px;
+    font-size: 15px;
+    height: 40px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  button {
+    margin: 10px 10px 10px 10px;
+    height: 40px;
+    width: 75px;
+    font-size: 15px;
+  }
+
+  .hole:after {
+    display: block;
+    background: url("/assets/mole.png") bottom center no-repeat;
+    background-size: contain;
+    content: "";
+    max-width: 70%;
+    height: 60px;
+    position: absolute;
+    z-index: 2;
+    bottom: -30px;
+  }
+
+  .mole {
+    background: url("/assets/mole.png") bottom center no-repeat;
+    background-size: 60%;
+    position: absolute;
+    top: 100%;
+    max-width: 70%;
+    height: 70%;
+    transition: all 0.4s;
+  }
+
+  .hole.up .mole {
+    top: 50px;
+  }
+}
+
+.cursor {
+  cursor:url(/assets/Hammer.cur), auto;
+}
+
+.goNext {
+
+
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ddd;
+  background: #fff;
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+    color:white;
+  display: flex;
+justify-content: space-around;
+}
